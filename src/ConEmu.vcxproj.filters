@@ -747,6 +747,15 @@
     <ClInclude Include="common\xmllite.h">
       <Filter>Common</Filter>
     </ClInclude>
+    <ClInclude Include="ConEmu\IceTermConst.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ConEmu\IceTermPipe.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ConEmu\IceTermProcessor.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ConEmu\AboutDlg.cpp">
@@ -1131,6 +1140,12 @@
       <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="ConEmu\WinObjBase.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ConEmu\IceTermPipe.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ConEmu\IceTermProcessor.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
   </ItemGroup>

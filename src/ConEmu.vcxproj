@@ -328,6 +328,9 @@
     <ClInclude Include="ConEmu\HotkeyList.h" />
     <ClInclude Include="ConEmu\Hotkeys.h" />
     <ClInclude Include="ConEmu\HtmlCopy.h" />
+    <ClInclude Include="ConEmu\IceTermConst.h" />
+    <ClInclude Include="ConEmu\IceTermPipe.h" />
+    <ClInclude Include="ConEmu\IceTermProcessor.h" />
     <ClInclude Include="ConEmu\IconList.h" />
     <ClInclude Include="ConEmu\ImgButton.h" />
     <ClInclude Include="ConEmu\Inside.h" />
@@ -565,6 +568,8 @@
     <ClCompile Include="ConEmu\HotkeyDlg.cpp" />
     <ClCompile Include="ConEmu\HotkeyList.cpp" />
     <ClCompile Include="ConEmu\Hotkeys.cpp" />
+    <ClCompile Include="ConEmu\IceTermPipe.cpp" />
+    <ClCompile Include="ConEmu\IceTermProcessor.cpp" />
     <ClCompile Include="ConEmu\IconList.cpp" />
     <ClCompile Include="ConEmu\ImgButton.cpp" />
     <ClCompile Include="ConEmu\Inside.cpp" />

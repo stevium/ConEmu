@@ -99,6 +99,7 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "VConGroup.h"
 #include "version.h"
 #include "VirtualConsole.h"
+#include "IceTermPipe.h"
 
 
 #define DEBUGSTRSYS(s) //DEBUGSTR(s)
@@ -1980,6 +1981,9 @@ BOOL CConEmuMain::CreateMainWindow()
 				DisplayLastError(L"Inside: AttachThreadInput() failed!");
 			}
 		}
+
+		std::wstring sPipeName(PIPENAME);
+		CIceTermPipe* pIceTerm = new CIceTermPipe(sPipeName, gpConEmu);
 	}
 
 	DWORD styleEx = GetWindowStyleEx();
